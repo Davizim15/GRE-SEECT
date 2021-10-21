@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=" pt-br">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<header>
+  <nav class="navbar navbar-light" style="background-color: #2a69c9;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h5>Pb Escola - Governo da Paraíba</h5>
+     </a>
+    </div>
+  </nav>
+  <nav id=menu>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link " aria-current="page" href="http://localhost:4200/identificacao">Identificação</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:4200/endereco">Endereço</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:4200/caracteriscaInfra">Caracterização e Infraestrutura</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:4200/organizacao-escolar">Organização escolar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:4200/turmas">Formação de Turmas</a>
+    </li>
+    
+  </ul>
+</nav>
+</header>
+
+
+<body>
+  <h2> Identificação</h2>
+  
+  <form class="container mx-auto row g-3" >
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Voltar</button>
+    </div>
+    <div class="container col-md-4">
+      <label for="gerencia" class="form-label">Gerencia Regional de Ensino(*)</label>
+      <select id="gerencia" class="form-select">
+        <option selected>Selecionar...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="container col-md-3 ">
+      <label for="escola" class="form-label">Nome da Escola(*)</label>
+      <select id="escola" class="form-select">
+        <option selected>Selecionar...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="container col-md-3">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input type="phone" class="form-control" id="telefone">
+    </div>
+    <div class="container col-md-3">
+      <label for="ute" class="form-label">Codigo UTE(*)</label>
+      <input type="text" class="form-control" id="ute">
+    </div>
+    <div class="container col-md-3">
+      <label for="utb" class="form-label">Codigo UTB(*)</label>
+      <input type="text" class="form-control" id="utb">
+    </div>
+    <div class="container col-md-3">
+      <label for="inep" class="form-label">Codigo INEP(*)</label>
+      <input type="text" class="form-control" id="inep">
+    </div>
+    <div class="container col-md-4">
+      <label for="situcao" class="form-label">Situação de Funcionamento(*)</label>
+      <select id="situcao" class="form-select">
+        <option selected>Selecionar...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="container col-md-6">
+      <label for="funcionar" class="form-label">A escola possui autorização para funcionar ?(*)</label>
+      <select id="funcionar" class="form-select">
+        <option selected>Selecionar...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="container col-md-6">
+      <label for="social" class="form-label">Site,blog, e/ou Página em rede social para comunicação da instituição (*)</label>
+      <input type="text" class="form-control" id="social">
+    </div>
+    <div class="col-md-5" style="height: 240px;">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-check form-switch" style="margin-left:70%; width: 40%; margin: 12; height: 10px;" >
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+      <label class="form-check-label" for="flexSwitchCheckDefault">Desativar tela</label>
+    </div>
+    <div class=" col-12">
+      <button type="submit" class="btn btn-primary">Gravar</button>
+    </div>
+    <div class="col-md-12">
+      <button type="submit" class="btn btn-primary">Enviar Etapa </button>
+    </div>
+
+  </form>
+</body>
+<footer >
+<section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #216db4;">
+    
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Codata:
+      <a class="text-white" href="https://codata.pb.gov.br/">Codata.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+  
